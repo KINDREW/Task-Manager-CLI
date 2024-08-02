@@ -1,0 +1,22 @@
+{
+  "name": "task-manager-cli",
+  "version": "1.0.0",
+  "description": "This is a task manager/todo list CLI tool. Create, Read, Update and Delete Tasks directly from your terminal!",
+  "exports": "./index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "commander": "^12.1.0",
+    "dotenv": "^16.4.5",
+    "inquirer": "^10.1.6",
+    "mongoose": "^8.5.2",
+    "nanoid": "^5.0.7",
+    "ora": "^8.0.1"
+  }
+}
