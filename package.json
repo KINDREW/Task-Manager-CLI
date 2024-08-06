@@ -7,6 +7,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "bin": {
+    "todo": "./index.js"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
@@ -17,6 +20,7 @@
     "inquirer": "^10.1.6",
     "mongoose": "^8.5.2",
     "nanoid": "^5.0.7",
-    "ora": "^8.0.1"
+    "ora": "^8.0.1",
+    "task-manager-cli": "file:"
   }
 }
